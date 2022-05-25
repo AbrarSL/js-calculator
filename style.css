@@ -93,11 +93,49 @@ footer, header {
 .key:active {
   transform: translate(0, 0.2rem);
 
+  background-color: #b3b3b3;
+
   box-shadow: 0 0;
 }
 
 .key:last-child {
   flex: 1;
+}
+
+.destructive {
+  background-color: #f08080;
+
+  box-shadow: 0 0.2rem #a41313;
+}
+
+.destructive:hover {
+  background-color: #ea4848;
+
+  box-shadow: 0 0.2rem #891010;
+}
+
+.destructive:active {
+  background-color: #ea4848;
+
+  box-shadow: 0 0;
+}
+
+.suggested {
+  background-color: #85cdfa;
+
+  box-shadow: 0 0.2rem #0873b5;
+}
+
+.suggested:hover {
+  background-color: #3baff7;
+
+  box-shadow: 0 0.2rem #065d93;
+}
+
+.suggested:active {
+  background-color: #3baff7;
+
+  box-shadow: 0 0;
 }
 
 .num-keys {
