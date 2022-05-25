@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.content {
+  flex: 1;
+
+  background-color: #ffff96;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer, header {
+  background-color: #fab56a;
+
+  text-align: center;
+}
+
+.calc-body {
+  margin: 5rem;
+
+  width: 25rem;
+  height: 30rem;
+
+  background-color: #4d4d4d;
+
+  box-shadow: 0 1rem #262626;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.screen {
+  margin: 1rem;
+  
+  width: 23rem;
+  height: 6rem;
+  
+  background-color: #849e00;
+
+  box-shadow: inset 0 0.2rem #404d00;
+  
+  font-family: 'Press Start 2P';
+  text-align: left;
+  font-size: 2rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.control-area {
+  flex: 1;
+  
+  display: flex;
+}
+
+.key {
+  margin: 0;
+  padding: 0;
+
+  height: 4rem;
+  width: 4rem;
+
+  background-color: #dedede;
+
+  box-shadow: 0 0.2rem #6e6e6e;
+
+  border: none;
+}
+
+.key:hover {
+  background-color: #b3b3b3;
+
+  box-shadow: 0 0.2rem #595959;
+}
+
+.key:active {
+  transform: translate(0, 0.2rem);
+
+  box-shadow: 0 0;
+}
+
+.key:last-child {
+  flex: 1;
+}
+
+.num-keys {
+  flex: 3;
+
+  padding: 1rem;
+  
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.op-keys {
+  flex: 2;
+
+  padding: 1rem;
+  
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
